@@ -1,0 +1,198 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* logo */
+.navbar-logo-text span {
+    color: rgb(129, 26, 26);
+
+}
+
+.nav-btn {
+    background-color: rgb(129, 26, 26);
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.nav-btn:hover {
+    background-color: rgb(101, 45, 45);
+    color: white;
+}
+
+.carousel-item img {
+    height: 90vh;
+}
+
+.food-heading {
+    font-size: 25px;
+    letter-spacing: 1.5;
+}
+
+/* index page/home page */
+/* Special Food Section */
+.food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.food img {
+    width: 40%;
+
+}
+
+.food .food-text {
+    width: 45%;
+}
+
+.food.reverse {
+    flex-direction: row-reverse;
+}
+
+.food-text h3 {
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.food-text p {
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+.home-food-section-btn {
+    background-color: rgb(129, 26, 26);
+    color: white;
+    border-radius: 25px;
+}
+
+.home-food-section-btn:hover {
+    background-color: rgb(101, 45, 45);
+    color: white;
+}
+
+/* Media Queries for home food section */
+
+@media (max-width:900px) {
+    .food {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .food.reverse {
+        flex-direction: column;
+    }
+
+    .food img {
+        width: 90%;
+    }
+
+    .food .food-text {
+        width: 90%;
+    }
+}
+
+/* Food page */
+/* Our Top Delicious Foods */
+
+.top-food-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.top-food-section img {
+    height: 300px;
+    width: 45%;
+}
+
+.top-food-section .top-food-section-text {
+    width: 45%;
+}
+
+.top-food-section-text h2 {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.top-food-section-text p {
+    letter-spacing: 1.5px;
+
+}
+
+.food-section-btn {
+    background-color: rgb(129, 26, 26);
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.food-section-btn:hover {
+    background-color: rgb(101, 45, 45);
+    color: white;
+}
+
+/* Media Queries for food section */
+
+@media(max-width : 900px) {
+    .top-food-section {
+        flex-direction: column;
+    }
+
+    .top-food-section {
+        width: 90%;
+    }
+
+    .top-food-section .top-food-section-text {
+        width: 90%;
+    }
+
+    .top-food-section img {
+        width: 90%;
+    }
+}
+
+.card img {
+    height: 200px;
+    padding: 10px;
+    border: none;
+}
+
+/* Food Cards */
+
+.food-card-section-btn button {
+    background-color: rgb(129, 26, 26);
+    color: white;
+}
+
+.food-card-section-btn button:hover {
+    background-color: rgb(101, 45, 45);
+    color: white;
+}
+
+.food-price {
+    font-size: 16px;
+    color: rgb(101, 45, 45);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.food-rating {
+    color: rgb(101, 45, 45);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* contact us page */
+
+.contact-us-btn {
+    background-color: rgb(129, 26, 26);
+    color: white;
+}
+
+.contact-us-btn:hover {
+    background-color: rgb(101, 45, 45);
+    color: white;
+}
