@@ -196,3 +196,31 @@ body {
     background-color: rgb(101, 45, 45);
     color: white;
 }
+
+/* Menu Items Page */
+
+.menu-item-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-item-filter-btn {
+    background-color: rgb(129, 26, 26);
+    color: white;
+}
+
+.menu-item-filter-btn:hover {
+    background-color: rgb(101, 45, 45);
+    color: white;
+}
+
+@media(max-width:900px) {
+    .menu-item-filter-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
